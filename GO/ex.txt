@@ -1,0 +1,31 @@
+8/Produit: 
+Var n, F entier
+  Debut 
+    Ecrire "Entrez un nombre : "
+      n←Lire 
+      F ← 1
+    Pour i de 2 à N
+         F ← F * i
+    Finpour
+     Ecrire "La factorielle est : ", F
+  Fin.
+
+
+9/Max:
+  Var n,m entier
+ Debut
+m←0
+pour i de 1 à 10 faire:
+ecrire ("entrez un nombre:")
+ n←lire
+ si i=1 ou n>m
+ alors m←n
+ finsi
+finpour
+12/Statistiques:
+ Var n,max,min,s,nbrP,nbrN entier
+     prc réel
+ Debut:
+ ecrire("Tapez un nombre:")
+ n←lire
+ 
